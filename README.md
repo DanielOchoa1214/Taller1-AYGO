@@ -41,13 +41,13 @@ Para esta parte se creo el Dockerfile propuesto y se corrieron los siguientes co
 <img width="837" height="394" alt="Screenshot 2025-10-18 at 2 36 52 PM" src="https://github.com/user-attachments/assets/0edaebcf-90da-4afb-b986-9604bc6e0814" />
 <img width="1004" height="240" alt="Screenshot 2025-10-18 at 2 37 01 PM" src="https://github.com/user-attachments/assets/e5d14553-6ef4-424e-9925-e8807e992552" />
 
-Luego para probar que cada puerto estuviera funcionando le pagamos a cada endpoint de cada contenedor
+Luego para probar que cada puerto estuviera funcionando le pegamos a cada endpoint de cada contenedor
 
 <img width="371" height="143" alt="Screenshot 2025-10-18 at 2 37 24 PM" src="https://github.com/user-attachments/assets/f9716c7c-025a-4646-8995-f1b45f7bd780" />
 <img width="409" height="127" alt="Screenshot 2025-10-18 at 2 37 16 PM" src="https://github.com/user-attachments/assets/ff6b09fa-92fc-4f42-b94d-6f7623d65990" />
 <img width="384" height="128" alt="Screenshot 2025-10-18 at 2 37 08 PM" src="https://github.com/user-attachments/assets/82f0fcb6-e9be-48f3-930f-3077f58f3eab" />
 
-Luego creamos el `docker-compose` y corremos los comandos del taller y podemos ver que ambos contenedores fueron creados exitosamente
+Luego creamos el `docker-compose`, corremos los comandos del taller y podemos ver que ambos contenedores fueron creados exitosamente
 
 <img width="1022" height="143" alt="Screenshot 2025-10-18 at 2 43 02 PM" src="https://github.com/user-attachments/assets/be253d24-c088-49bd-9acc-450eceb734bc" />
 <img width="1177" height="135" alt="Screenshot 2025-10-18 at 2 42 45 PM" src="https://github.com/user-attachments/assets/869e4f97-42c6-4635-90fe-3f60dbb75d8d" />
@@ -58,7 +58,7 @@ Ademas, al ir a la URL del proyecto en el puerto 8087 (El que esta mapeado al co
 
 ### Parte 3
 
-Para crear la referencia al repositorio de DockerHub corremos el siguiente comando y con `docker image ls` nos aseguramos que la relacion se haya creado correctamente 
+Para crear la referencia al repositorio de DockerHub corremos el comando de la imagen y con `docker image ls` nos aseguramos que la relacion se haya creado correctamente 
 
 <img width="633" height="173" alt="Screenshot 2025-10-18 at 2 46 54 PM" src="https://github.com/user-attachments/assets/0ca16690-1a3e-441b-95b8-b18bb7dfbf1b" />
 
@@ -69,7 +69,7 @@ Al ver que ambas imagenes tienen el mismo ID ya podemos hacer push al repositori
 
 ### Parte 4
 
-Para esta ultima parte se creo una instancia EC2 t2.nano para no gastar muchos recursos. Ademas a las reglas de seguridad del trafico se añadio el puerto 42000 para que se permitiera el trafico de ingreso desde cualquier IP.
+Para esta ultima parte se creo una instancia EC2 t2.nano para no gastar muchos recursos. Ademas, a las reglas de seguridad del trafico se añadio el puerto 42000 para que se permitiera el trafico de ingreso desde cualquier IP.
 
 <img width="1506" height="182" alt="Screenshot 2025-10-18 at 3 00 03 PM" src="https://github.com/user-attachments/assets/574fb176-17d7-47d9-88df-4bcde38c9d8e" />
 
